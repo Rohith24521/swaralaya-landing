@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFDF5;
+  font-family: 'Georgia', serif;
+  color: #1a1a1a;
+}
+
+/* NAVBAR */
+nav {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 60px;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+nav ul li {
+  font-size: 16px;
+  cursor: pointer;
+  color: #1a1a1a;
+}
+
+nav ul li.account {
+  color: #FFC107;
+}
+
+/* HERO */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px;
+  min-height: 400px;
+  background-color: #FFFDF5;
+}
+
+.hero-text h1 {
+  font-size: 52px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.2;
+  max-width: 500px;
+}
+
+.hero-text h1 span {
+  color: #FFC107;
+  font-style: italic;
+}
+
+.hero-text p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #1a1a1a;
+  cursor: pointer;
+}
+
+.hero-text p:hover {
+  color: #FFC107;
+}
+
+.hero-boxes {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+}
+
+.box1 {
+  width: 60px;
+  background-color: #FFE082;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.box2 {
+  width: 100px;
+  background-color: #FFC107;
+  height: 300px;
+  border-radius: 4px;
+}
+
+/* SECTIONS */
+.section {
+  padding: 80px 60px;
+  position: relative;
+}
+
+.section h2 {
+  font-size: 48px;
+  color: #FFC107;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+.section p {
+  font-size: 15px;
+  line-height: 1.9;
+  max-width: 480px;
+  border-left: 3px solid #FFC107;
+  padding-left: 16px;
+  color: #555;
+  text-align: justify;
+}
+
+/* STORY WATERMARK */
+.watermark {
+  font-size: 120px;
+  color: #FFE082;
+  font-family: 'Noto Sans Devanagari', 'Georgia', serif;
+  margin-top: 30px;
+  line-height: 1;
+  width: fit-content;
+}
+
+/* VISION */
+.vision {
+  padding-left: 160px;
+  position: relative;
+  min-height: 300px;
+  padding-bottom: 160px;
+}
+
+/* VISION WATERMARK - fully below text */
+.watermark-left {
+  position: absolute;
+  left: 20px;
+  bottom: -80px;
+  font-size: 130px;
+  color: #FFE082;
+  font-family: 'Noto Sans Devanagari', 'Georgia', serif;
+  line-height: 1;
+}
+
+/* CONTACT */
+.contact {
+  padding: 80px 60px;
+}
+
+.contact h2 {
+  font-size: 48px;
+  color: #FFC107;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+.contact p {
+  font-size: 22px;
+  color: #1a1a1a;
+  margin-bottom: 8px;
+}
+
+.contact .location {
+  font-size: 16px;
+  color: #666;
+  text-align: center;
+  margin-top: 8px;
+}
