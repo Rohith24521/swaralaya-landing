@@ -585,12 +585,12 @@ body {
     top: auto;
     left: auto;
     width: 100%;
-    height: 260px;
-    object-fit: cover;
+    height: 220px;                  /* FIXED — reduced height */
+    object-fit: contain;            /* FIXED — changed from cover to contain */
     object-position: center top;
-    opacity: 0.9;                   /* FIXED — clearly visible now */
-    -webkit-mask-image: none;       /* FIXED — removed fading mask */
-    mask-image: none;               /* FIXED — removed fading mask */
+    opacity: 0.9;
+    -webkit-mask-image: none;
+    mask-image: none;
     display: block;
     order: 1;
   }
