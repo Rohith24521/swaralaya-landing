@@ -1,0 +1,77 @@
+/* ── PageTemplate.css — shared styles for Terms, Privacy, Agreement pages ── */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #FFFBF2;
+  font-family: 'Inter', sans-serif;
+  color: #1a1a1a;
+}
+
+.page-wrapper {
+  min-height: 100vh;
+  background-color: #FFFBF2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.page-title {
+  font-size: 48px;
+  font-weight: 400;
+  color: #FAB713;
+  margin-bottom: 24px;
+  font-family: 'Inter', sans-serif;
+  line-height: 1.3;
+}
+
+.page-body {
+  font-size: 18px;
+  font-weight: 400;
+  color: #737373;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 12px 32px;
+  background-color: #FAB713;
+  color: #231A03;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Inter', sans-serif;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.back-btn:hover {
+  background-color: #E5A400;
+}
+
+.back-btn:focus-visible {
+  outline: 2px solid #231A03;
+  outline-offset: 3px;
+}
+
+.back-btn:active {
+  transform: translateY(1px);
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  .page-title { font-size: 32px; }
+  .page-body  { font-size: 15px; }
+  .back-btn   { font-size: 14px; padding: 10px 24px; }
+}
